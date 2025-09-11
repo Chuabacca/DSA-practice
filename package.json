@@ -1,0 +1,25 @@
+{
+  "name": "dsa-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sliding-window": "ts-node sliding-window.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuabacca/DSA-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chuabacca/DSA-practice/issues"
+  },
+  "homepage": "https://github.com/Chuabacca/DSA-practice#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
