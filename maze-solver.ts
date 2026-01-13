@@ -18,9 +18,8 @@
  * Expected output: 6
  */
 
-function solveMaze(maze: string[][]): number {
-  // TODO: Implement your solution here
-  return -1;
+function solveMaze(maze: string[][], start: number[]): number {
+  return -1
 }
 
 // Test cases
@@ -54,23 +53,23 @@ function runTests() {
   ];
 
   console.log('Test 1 - Complex maze:');
-  console.log('Expected: 6, Got:', solveMaze(test1));
+  console.log('Expected: 6, Got:', solveMaze(test1, [0, 0]));
   console.log();
   
   console.log('Test 2 - Simple path:');
-  console.log('Expected: 4, Got:', solveMaze(test2));
+  console.log('Expected: 4, Got:', solveMaze(test2, [0, 0]));
   console.log();
   
   console.log('Test 3 - No path (blocked):');
-  console.log('Expected: -1, Got:', solveMaze(test3));
+  console.log('Expected: -1, Got:', solveMaze(test3, [0, 0]));
   console.log();
   
   console.log('Test 4 - Short path:');
-  console.log('Expected: 2, Got:', solveMaze(test4));
+  console.log('Expected: 2, Got:', solveMaze(test4, [0, 0]));
   console.log();
   
   console.log('Test 5 - Adjacent start and end:');
-  console.log('Expected: 1, Got:', solveMaze(test5));
+  console.log('Expected: 1, Got:', solveMaze(test5, [0, 0]));
 }
 
 runTests();
